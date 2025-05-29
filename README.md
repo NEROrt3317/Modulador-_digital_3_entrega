@@ -28,7 +28,8 @@ El repositorio contiene los siguientes archivos `.m`, cada uno con una función 
 * **`MainTxMod.m`**: Script principal para el proceso de modulación y adición de ruido.
 * **`MainRxDemod.m`**: Script principal para el proceso de demodulación y cálculo de BER/SER.
 * **`main_simulador_ber.m`**: **(NUEVO)** Script principal para simular curvas de BER/SER vs SNR con 5 millones de bits.
-* **`teorico_ber_ser.m`**: **(NUEVO)** Script para graficar curvas teóricas de BER/SER vs SNR (solo con fines ilustrativos).
+* **`MainTx.m`**: **(EJECUTAR)** Script ejecuta todo el procedimiento completo para la `codificacion` completa de los archivos (imagen, audio o texto).
+* **`MainRx.m`**: **(EJECUTAR)** Script ejecuta todo el procedimiento completo para la `decodificacion` completa de los archivos (imagen, audio o texto).
 
 ## Descripción de los Módulos
 
