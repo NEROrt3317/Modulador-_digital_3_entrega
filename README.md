@@ -30,7 +30,13 @@ El repositorio contiene los siguientes archivos `.m`, cada uno con una función 
 * **`main_simulador_ber.m`**: **(NUEVO)** Script principal para simular curvas de BER/SER vs SNR con 5 millones de bits.
 * **`MainTx.m`**: **(EJECUTAR)** Script ejecuta todo el procedimiento completo para la `codificacion` completa de los archivos (imagen, audio o texto).
 * **`MainRx.m`**: **(EJECUTAR)** Script ejecuta todo el procedimiento completo para la `decodificacion` completa de los archivos (imagen, audio o texto).
-
+_NOTA_: Antes de ejecutar los codigos asegurate de descargar las siguientes librerias:
+```
+pkg load communications
+```
+```
+pkg load signal
+```
 ## Descripción de los Módulos
 
 A continuación se detalla la función de cada archivo en el proyecto:
